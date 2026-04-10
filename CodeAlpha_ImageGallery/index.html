@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Image Gallery</h1>
+    <h3 class="heading">Gallery pictures</h3>
+
+    <div class="container">
+        <button class="scroll-btn left" onclick="scrollGallery(-300)"&#10094;></button>
+
+        <div class="gallery" id="gallery">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.41 PM (1).jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.41 PM (2).jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.41 PM.jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.42 PM (1).jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.42 PM (2).jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.42 PM (3).jpeg" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.42 PM.jpeg" alt="img 1" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.43 PM (1).jpeg" alt="img 1" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.43 PM.jpeg" alt="img 1" alt="img 1">
+        <img src="/WhatsApp Image 2026-04-10 at 10.40.43 PM (2).jpeg" alt="img 1" alt="img 1">
+    </div>
+
+    <button class="scroll-btn right" onclick="scrollGallery(300)"&#10094;></button>
+</div>
+
+      <div class="lightbox" id="lightbox">
+        <span id="closebtn">& times;</span>
+        <img id="lightbox Image" src="" alt="Zoomed"/>
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10094;</button>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
