@@ -1,0 +1,28 @@
+.main{
+    border:2px solid lightgray ;
+    width: 200px;
+    margin: 0 auto;
+}
+.result{
+    width:192px ;
+    background-color: lightgray ;
+    color: white;
+}
+
+.clearBtn{
+    width: 200px;
+    margin-top: 5px;
+    background-color: lightgray;
+}
+
+.Btn{
+    background-color: lightgray;
+    width: 45px;
+    margin: 1px;
+}
+
+.HalfBtn{
+    background-color: lightgray;
+    width: 97px;
+
+}
